@@ -1,0 +1,62 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,700;1,300&family=Playfair+Display&display=swap');
+* {
+    box-sizing: border-box; /*выбираем способ расчета с учетом рамки*/
+}
+a, button{
+    transition: all .3s ease-in-out;
+}
+.container {
+    margin: 34px;
+	background-color: #f8f8f8;
+    box-shadow: 0 0 60px rgba(199, 189, 189, 0.5); /* Параметры тени */
+    padding: 10px;
+   	background-color:white;
+    min-height: 700px;
+ }
+h2{
+   font-family: 'Playfair Display', serif;
+   font-size: 42px;
+}
+p,h3{
+    font-family: 'Lato', sans-serif;
+}
+p{
+    font-size: 18px;
+   
+}
+.p1:first-letter{
+    font-family: 'Playfair Display', serif;
+    font-size: 3em; /* Размер буквицы */
+    padding: 3px; /* Поля вокруг первой буквы */
+    margin-right: 5px; /* Отступ справа */
+    color: black; /* Цвет буквицы  */
+    float: left; /* Обтекание по правому краю */
+    line-height: 0.33em; /* Положение относительно текста */
+   }
+  
+
+.p1,.p2,.p3{
+    margin: 50px;
+ 
+}
+h3{
+    font-style: italic ;
+    font-size: 24px;
+    margin: 40px 0 60px 60px;
+}
+
+
+.btn{
+    font-size: 16px;
+    font-weight: 700;
+    color:#eaa258;
+    background-color:transparent;
+    border: 1px solid #eaa258;
+     padding: 15px 50px;
+     margin: 40px;
+     text-transform: uppercase;
+     text-decoration: none;
+}
+
+  
