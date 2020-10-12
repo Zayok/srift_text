@@ -17,12 +17,14 @@ a, button{
 h2{
    font-family: 'Playfair Display', serif;
    font-size: 42px;
+   letter-spacing: 2px;
 }
 p,h3{
     font-family: 'Lato', sans-serif;
 }
 p{
     font-size: 18px;
+    line-height: 2;
    
 }
 .p1:first-letter{
